@@ -1,0 +1,23 @@
+body{
+    background: url("https://wallpaper.dog/large/10883416.jpg");
+}
+h1{
+    text-align: center;
+    color: brown;
+    font-size: 2cm;
+    background: transparent;
+}
+
+
+thead,tr,td{
+    font-size: larger;
+    color: whitesmoke;
+}
+table{
+    border:2px double grey;
+    background: transparent;
+}
+h2{
+    color: crimson;
+    font-size: 1.2cm;
+}

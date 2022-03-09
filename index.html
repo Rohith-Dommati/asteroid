@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>lets see again</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="all">
+            <div class="header">
+                <h1 class="heading">MOSHI MOSHI</h1>
+            </div>
+            <nav>
+                <div class="nav-links" id="navlinks">
+                    <img src="../2ndtime/square-xmark-solid.svg" width="`20px" height="20px" onclick="hidemenu()">
+                    <ul>
+                        <li><a href="../2ndtime/index.html" >HOME</a></li>
+                        <li><a href="../2ndtime/about.html" >ABOUT</a></li>
+                        <li><a href="../2ndtime/contact.html" >CONTACT</a></li>
+                        <li><a href="../2ndtime/Dont_click.html" >DONT_CLICK</a></li>
+                    </ul>
+                </div>
+                <img src="../2ndtime/bars-solid.svg" width="`20px" height="20px" onclick="showmenu()">
+            </nav> 
+            <div class="start">
+                <h1>Let's Start</h1>
+                <p>Asteroid 2004 MN4 will come scarily close to Earth on April 13, 2029,<br> but it will not hit</p>
+                <a href="https://science.nasa.gov/science-news/science-at-nasa/2005/13may_2004mn4" class="start-btn">Click here for more!</a><br><br>
+                <p>If you are intrested in such topics go through the below website</p><br>
+                <a href="https://www.nasa.gov/" class="start-btn">for further more#</a>
+            </div>
+        </section>
+        <section class="types">
+            <h1>Types of Asteroid</h1><br>
+            <p class="except">The three broad composition classes of asteroids are</p>
+            <div class="row">
+                <div class="types-col">
+                    <h3>C-Type</h3>
+                    <p>The C-type (chondrite) asteroids are most common. They probably consist of clay and silicate rocks, and are dark in appearance.<br> They are among the most ancient objects in the solar system.</p><br>
+                    <img src="../2ndtime/c-type.jpeg" width="150" height="80"><br><br><br>
+                    <a href="https://nineplanets.org/c-type-asteroids/" class="click">Wanna know more?</a>
+                </div>
+                <div class="types-col">
+                    <h3>S-Type</h3>
+                    <p>The S-types ("stony") are made up of silicate materials and nickel-iron.</p><br><br><br><br>
+                    <img src="../2ndtime/s-type.jpeg" width="80" height="100"><br><br>
+                    <a href="https://nineplanets.org/s-type-asteroids/" class="click">Wanna know more?</a>
+                </div>
+                <div class="types-col">
+                    <h3>M-Type</h3>
+                    <p>The M-types are metallic (nickel-iron). The asteroids' compositional differences are related to how far from the Sun they formed.<br> Some experienced high temperatures after they formed and partly melted,<br>  with iron sinking to the center and forcing basaltic (volcanic) lava to the surface.</p>
+                    <img src="../2ndtime/ m-type.jpeg" width="150" height="80"><br>
+                    <a href="https://nineplanets.org/m-type-asteroids/" class="click">Wanna know more?</a>
+                </div>
+            </div>
+        </section>
+        <section class="impact">
+            <h1>The video below is helpful for understanding the impact of Asteroid</h1><br><br>
+            <center>
+                <video width="70%" height="70%" controls>
+                    <source src="../2ndtime/asteroid video.mp4"  type="video/mp4">
+                </video><br><br><br>
+                <a href="https://www.youtube.com/" class="yt">For more such videos<br> Click Here!</a>
+            </center>
+        </section>
+        <section class="other">
+            <h1>Some other celestial  objects </h1><br><br>
+            <p class="other-btn">objects which passes through earth and sometimes falls on earth and sometimes evaporates in earths atmosphere</p>
+            <div class="row">
+                <div class="other-col">
+                    <img src="../2ndtime/meteorite.webp"  width="400px" height="650px">
+                    <div class="layer">
+                        <h3>METEORITE</h3>
+                    </div>
+                </div>
+                <div class="other-col" >
+                    <img src="../2ndtime/comet.jpeg" width="400px" height="650px">
+                    <div class="layer">
+                        <h3>COMET</h3>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right="0";
+            }
+            function hidemenu(){
+                navlinks.style.right="-200px"
+            }
+        </script>
+
+    </body>
+</html>

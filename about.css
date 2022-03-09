@@ -1,0 +1,20 @@
+body{
+    background: url("https://wallpaperaccess.com/full/17520.jpg");
+}
+
+thead,tr,td{
+    font-size: larger;
+    color: whitesmoke;
+}
+body{
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 2cm;
+    color: brown;
+}
+.hob{
+    text-decoration:none;
+    color: whitesmoke;
+}

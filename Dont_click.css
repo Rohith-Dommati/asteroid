@@ -1,7 +1,7 @@
 .lol{
     min-height: 100vh;
     width: 100%;
-    background-image: url("../2ndtime/alien.jpeg");
+    background-image: url("alien.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
